@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.inner-container {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.block-1 {
+  background: #fff;
+  box-shadow: 0 3px 3px #e6dede;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.block-1 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-1 .logo-block {
+  max-width: 50px;
+}
+
+.block-1 .logo-block img {
+  width: 100%;
+}
+
+.block-1 .link-block ul {
+  display: flex;
+  align-items: center;
+}
+
+.block-1 .link-block ul li {
+  padding-right: 30px;
+}
+
+.block-1 .link-block ul li a {
+  color: #000;
+}
+
+.block-1 .link-block ul li a:hover {
+  color: #f13ab1;
+  transition: all 0.25s ease;
+}
+
+.block-1 .link-block ul li form {
+  width: 400px;
+  padding-left: 30px;
+}
+
+.block-1 .link-block ul li form input {
+  width: 100%;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.block-1 .account-block {
+  display: flex;
+  align-items: center;
+}
+
+.block-1 .account-block .login-block {
+  padding-right: 15px;
+}
+
+.block-1 .account-block .login-block a {
+  display: block;
+  color: #000;
+  border: 1px solid #f13ab1;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.block-1 .account-block .login-block a:hover {
+  background-color: #ff00a6;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+.block-1 .account-block .signup-block {
+}
+
+.block-1 .account-block .signup-block a {
+  display: block;
+  color: #fff;
+  border: 1px solid #f13ab1;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f13ab1;
+}
+
+.block-1 .account-block .signup-block a:hover {
+  background-color: #ff00a6;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+.block-2 {
+  margin-bottom: 40px;
+}
+
+.block-2 .banner img {
+  width: 100%;
+}
+
+.block-3 {
+  margin-bottom: 60px;
+}
+
+.block-3 .inner-container {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.block-3 .category-block {
+  font-size: 0;
+}
+
+.block-3 .category-block .block {
+  display: inline-block;
+  width: 18%;
+  margin: 2% 1%;
+  cursor: pointer;
+}
+
+.block-3 .category-block .block img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.block-3 h1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 1%;
+  margin-bottom: 10px;
+}
+
+.block-3 .category-block .block p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.block-3 .category-block .block:hover {
+  transform: scale(1.07);
+  transition: all 0.5s ease-in-out;
+}
+
+.block-4 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #fbfbfb;
+  box-shadow: 0px -3px 3px #e6dede;
+}
+
+.block-4 .container {
+  max-width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.block-4 .container .block p {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.block-4 .container .block img.app-store {
+  max-width: 150px;
+}
+
+.block-4 .container .block img.original {
+  max-width: 250px;
+  margin-top: -7px;
+}
+
+.block-4 .container .block p.heading {
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.banner-block-2 {
+  background: url("./images/about-us-banner.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 80px;
+}
+
+.banner-block-2 h1 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 45px;
+}
+
+.about-us-block-3 {
+  margin-bottom: 70px;
+}
+
+.about-us-block-3 .inner-container {
+  font-size: 0;
+}
+
+.about-us-block-3 .block {
+  width: 46%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.about-us-block-3 .block p {
+  font-size: 18px;
+}
+
+.about-us-block-3 .block img {
+  width: 100%;
+}
+
+.collections-block-3 {
+  margin-bottom: 80px;
+}
+
+.collections-block-3 .inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collections-block-3 .block {
+  padding-left: 2%;
+  padding-right: 2%;
+  cursor: pointer;
+}
+
+.collections-block-3 .block .inner-block {
+  border: 1px solid #bfbfbf;
+  box-shadow: 1px 1px 3px #bfbfbf;
+  border-radius: 5px;
+}
+
+.collections-block-3 .block .inner-block img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.collections-block-3 .block .inner-block p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.collections-block-3 .block:hover {
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+}
+
+.log-in-block-1 {
+  background: #fd90d7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in-block {
+  background: #fff;
+  width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.log-in-block form {
+  padding: 20px;
+}
+
+.log-in-block form input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.log-in-block form .logo-block {
+  max-width: 50px;
+  margin: 10px auto;
+}
+
+.log-in-block form .logo-block img {
+  width: 100%;
+}
+
+.log-in-block form .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-in-block form .links p,
+.log-in-block form .links a {
+  font-size: 12px;
+  color: blue;
+}
+
+.log-in-block form .submit {
+  max-width: 100px;
+  margin: 10px auto;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.log-in-block form .submit a {
+  display: block;
+  padding: 5px 8px;
+  border: 1px solid #ff00a6;
+  border-radius: 5px;
+}
+
+.log-in-block form .submit:hover a {
+  color: #fff;
+  background: #ff00a6;
+  transition: all 0.25s ease;
+}
+
+.back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back a {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px 8px;
+  color: rgb(96, 89, 89);
+}
+
+.back:hover a {
+  color: #000;
+  transition: all 0.25s ease;
+}
+
+.log-in-block form .create {
+  max-width: 150px;
+  margin: 35px auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.log-in-block form .create a {
+  display: block;
+  padding: 5px 8px;
+  border: 1px solid #ff00a6;
+  border-radius: 5px;
+}
+
+.log-in-block form .create:hover a {
+  color: #fff;
+  background: #ff00a6;
+  transition: all 0.25s ease;
+}
